@@ -1,0 +1,5 @@
+fun int main() =
+    let x = write(true && true) in
+    let y = write(false && false) in
+    let z = write(false && true) in
+    let w = write(true && false) in 1

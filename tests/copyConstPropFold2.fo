@@ -1,0 +1,1 @@
+fun int main() = let y = (let x = 2 in 5*x) in write(5+y)

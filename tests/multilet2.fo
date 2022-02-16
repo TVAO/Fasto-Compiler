@@ -1,0 +1,8 @@
+fun int main() = 
+	let x = write(let x = 4 in let y = 0 in x + y) in 
+	let y = write(let x = 4 in x) in
+	let z = write(let x = 4 in let y = 0 in x + y) in 
+	let d = write(let x = 4; y = 0 in x + y) in 
+	let g = write(let x = 4; y = 0; z = 0 in x + y + z) in 
+	4
+

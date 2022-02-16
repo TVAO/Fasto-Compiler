@@ -1,0 +1,1 @@
+fun int main() = let x = write(false && 2 / 0 == 0) in 1 

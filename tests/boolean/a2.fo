@@ -1,0 +1,1 @@
+fun int main() = let x = 3 in  let y =  write(x) in 1

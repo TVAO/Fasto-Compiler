@@ -1,0 +1,7 @@
+fun bool write_nl(bool b) =
+  let res = write(b) in
+  let tmp = write("\n") in
+  res
+
+fun bool main() =
+  write_nl(true && false && false && true)

@@ -1,0 +1,5 @@
+fun int main() =
+    let to = true in
+    let be = true in
+    let p = write ((to == be || not to && be == true) == ((to == be) || ((not to) && (be == true))))
+    in 1

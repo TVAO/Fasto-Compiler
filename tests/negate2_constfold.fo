@@ -1,0 +1,31 @@
+fun bool write_nl(bool b) =  
+    let res = write(b) in    
+    let tmp = write("\n") in
+    res
+
+fun bool main() =  
+    let b_I1 = true in    
+    let b = true in    
+    let res = write(true) in    
+    let tmp = write("\n") in    
+    let x0 = res in    
+    let b_I2 = false in    
+    let b = false in    
+    let res = write(false) in    
+    let tmp = write("\n") in    
+    let x1 = res in    
+    let b_I3 = false in    
+    let b = false in    
+    let res = write(false) in    
+    let tmp = write("\n") in    
+    let x2 = res in    
+    let b_I4 = true in    
+    let b = true in    
+    let res = write(true) in    
+    let tmp = write("\n") in    
+    let x3 = res in    
+    let b_I5 = ((res && res) && res) in    
+    let b = b_I5 in    
+    let res = write(b_I5) in    
+    let tmp = write("\n") in
+    res

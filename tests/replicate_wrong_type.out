@@ -1,0 +1,1 @@
+Type error: Type mismatch in 1st argument of replicate: expected int, but got [char] at line 4, column 12

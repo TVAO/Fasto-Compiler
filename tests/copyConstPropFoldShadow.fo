@@ -1,0 +1,5 @@
+fun int f(int a) =
+    let b = a in
+        let a = 4 in b*a
+
+fun int main() = write(f(2))
